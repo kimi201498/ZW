@@ -207,4 +207,6 @@ void Widget::on_connectBtn_clicked()
     messageBox.setText(tr("连接成功！"));
     messageBox.exec();
     this->close();
+
+    messageBox.setText(tr("测试"));	
 }
