@@ -209,4 +209,8 @@ void Widget::on_connectBtn_clicked()
     this->close();
 
     messageBox.setText(tr("测试"));	
+messageBox.setText(tr("测试"));
+
+
+messageBox.setText(tr("测试"));
 }
